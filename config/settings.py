@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     # local-apps 
     'accounts',
     'pages',
+    'products',
 ]
 
 SITE_ID = 1
