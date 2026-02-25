@@ -1,0 +1,6 @@
+{% load humanize %}
+<h1> {{ product.title }}</h1>
+<p> {{ product.description }}</p>
+<p> {{ product.price | intcomma }} تومان</p>
+<p>وضعیت :  {{ product.get_status_display }}</p>
+

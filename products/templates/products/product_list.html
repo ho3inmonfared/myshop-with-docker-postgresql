@@ -1,0 +1,10 @@
+{% load humanize %}
+<h1>this is products list</h1>
+-----------------------------{% for product in products %}
+  <a href="{{ product.get_absolute_url }}" style="text-decoration: none;">
+    <h2 style="color:blue;">{{ product.title }}</h2>
+    <p style="color:black;">{{ product.description }}</p>
+    <p style="color:black;">{{ product.price|intcomma }} تومان</p>
+  </a>
+  ---------------------------------
+{% endfor %}
