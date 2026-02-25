@@ -1,146 +1,59 @@
-🛒 MyShop – Django E-commerce with Docker & PostgreSQL
+<h1 align="center">
+🛒 MyShop
+</h1>
 
-A step-by-step fully containerized e-commerce project built from scratch using:
+<p align="center">
+A Modern E-commerce Project Built with Django, PostgreSQL & Docker
+</p>
 
-🐍 Python
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/Django-4.x-green?style=for-the-badge&logo=django" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-blue?style=for-the-badge&logo=postgresql" />
+  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker" />
+  <img src="https://img.shields.io/badge/License-MIT-black?style=for-the-badge" />
+</p>
 
-🌿 Django
+---
 
-🐘 PostgreSQL
+## 🚀 About The Project
 
-🐳 Docker & Docker Compose
+**MyShop** is a fully containerized E-commerce web application built step-by-step from scratch using Django.
 
-🎨 HTML & CSS
+This project demonstrates:
 
-🔐 Django Built-in Authentication
+- Clean Django architecture
+- PostgreSQL integration
+- Dockerized development workflow
+- Authentication system
+- Modular and scalable structure
 
-🔧 Git & GitHub
+It is designed as a real-world portfolio-level project.
 
-This project is designed as a practical, real-world learning experience for building a production-ready Django application.
+---
 
-🚀 Features
+## 🧱 Tech Stack
 
-User Authentication (Login / Register / Logout)
+- 🐍 Python
+- 🌿 Django
+- 🐘 PostgreSQL
+- 🐳 Docker & Docker Compose
+- 🎨 HTML / CSS
+- 🔐 Django Authentication System
+- 🔧 Git & GitHub
 
-Django Admin Panel
+---
 
-Product Management
+# 🐳 Quick Start (Docker Recommended)
 
-Product Categories
+### 1️⃣ Clone the repository
 
-Product Status with Django Choices
-
-PostgreSQL Database Integration
-
-Fully Dockerized Setup
-
-Clean & Modular Project Structure
-
-Ready for Future Scaling
-
-🧱 Tech Stack
-Technology	Purpose
-Python	Backend Logic
-Django	Web Framework
-PostgreSQL	Database
-Docker	Containerization
-Docker Compose	Multi-container Orchestration
-HTML / CSS	Frontend
-GitHub	Version Control
-🐳 Running the Project with Docker (Recommended)
-1️⃣ Clone the Repository
+```bash
 git clone https://github.com/ho3inmonfared/myshop-with-docker-postgresql.git
 cd myshop-with-docker-postgresql
-2️⃣ Build the Containers
+
 docker compose build
-3️⃣ Run the Project
+
 docker compose up
-4️⃣ Open in Your Browser
+
 http://localhost:8000
-🗄 Database
-
-This project uses PostgreSQL running inside Docker.
-No need to install PostgreSQL locally.
-
-🔐 Authentication System
-
-Built using Django's built-in authentication system:
-
-User Registration
-
-Login / Logout
-
-Session Handling
-
-Protected Views
-
-Admin Authentication
-
-🛠 Running Without Docker (Optional)
-
-If you prefer running locally without Docker:
-
-python -m venv venv
-source venv/bin/activate  # Linux / macOS
-venv\Scripts\activate     # Windows
-
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
-📂 Project Structure (Simplified)
-myshop/
- ├── products/
- ├── users/
- ├── templates/
- ├── static/
- ├── docker-compose.yml
- ├── Dockerfile
- └── manage.py
-🎯 Project Goals
-
-This project was built to:
-
-Practice Django in a real-world scenario
-
-Learn Docker in a practical way
-
-Connect Django with PostgreSQL
-
-Build a production-ready structure
-
-Create a strong portfolio project
-
-🚀 Future Improvements
-
-Shopping Cart System
-
-Payment Gateway Integration
-
-Order Management
-
-Product Reviews & Ratings
-
-Search & Filtering
-
-Analytics Dashboard
-
-Responsive UI Improvements
-
-🤝 Contributing
-
-Contributions are welcome!
-Feel free to fork the project and submit a Pull Request.
-
-👨‍💻 Author
-
-Hossein Monfared
-
-⭐ Support
-
-If you found this project helpful:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-📢 Share it
